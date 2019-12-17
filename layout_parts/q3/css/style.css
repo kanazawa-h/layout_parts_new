@@ -10,7 +10,7 @@
 .q3_table th {
   padding: 10px;
   background-color: #2244aa;
-  color: aliceblue;
+  color: #fff;
   border: solid #dedede 1px;
   font-size: 18px;
   line-height: 26px;
@@ -28,12 +28,6 @@
   background-color: #ecf1f2;
 }
 
-.q3_table td:first-child {
-  font-size: 18px;
-  line-height: 26px;
-  background-color: #2244aa;
-  color: aliceblue;
-}
 
 .q3_table tbody tr:last-child {
   border-top: dashed #000 2px;

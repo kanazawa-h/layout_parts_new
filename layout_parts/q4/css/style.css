@@ -18,45 +18,36 @@
   margin-top: 0px;
 }
 
-
+.padd_dis {
+  padding: 20px;
+  display: table-cell;
+}
 
 .pink_box {
-  padding: 20px;
   background-color: #fdc8b8;
   width: 100px;
-  display: table-cell;
 }
 
 .purple_box {
-  padding: 20px;
   background-color: #e0abd9;
-  display: table-cell;
 }
 
 .blue_box {
-  padding: 20px;
   background-color: #b6d8ed;
   width: 100px;
-  display: table-cell;
 }
 
 .yellow_box {
-  padding: 20px;
   background-color: #e5d32e;
-  display: table-cell;
 }
 
 .salmon_pink_box {
-  padding: 20px;
   background-color: #ec8f9a;
-  display: table-cell;
 }
 
 .green_box {
-  padding: 20px;
   background-color: #8fdcad;
   width: 500px;
-  display: table-cell;
 }
 
 /* 回答はここに書いてね */
