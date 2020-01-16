@@ -17,6 +17,7 @@
   line-height: 100px;
   text-align: center;
   font-size: 30px;
+  font-weight: bold;
 }
 
 
@@ -28,14 +29,6 @@
   z-index: 1;
 }
 
-.box_8::after {
-  background-color: #ffefd3;
-  position: absolute;
-  content: "";
-  width: 20px;
-  height: 20px;
-  right: 0;
-}
 
 .box_2 {
   background-color: #7084de;
@@ -84,6 +77,15 @@
   z-index: 8;
   top: 120px;
   left: 120px;
+}
+
+.box_8::after {
+  background-color: #ffefd3;
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  right: 0;
 }
 
 .box_9 {
