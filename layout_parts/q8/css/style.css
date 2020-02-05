@@ -2,18 +2,22 @@
 
 /* 回答はここに書いてね */
 
-.q8_img_box:hover {
-  transform: scale(1.5);
-  overflow: hidden;
-  transition: all 0.5s;
-  cursor: pointer;
-}
 
 .scale-box {
   width: 500px;
   height: 333px;
   overflow: hidden;
   margin: 0 auto;
+  position: relative;
+  cursor: pointer;
+}
+
+.q8_img_box {
+  transition: all 0.5s;
+}
+
+.scale-box:hover .q8_img_box {
+  transform: scale(1.5);
 }
 
 .text_box {
