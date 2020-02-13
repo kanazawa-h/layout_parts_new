@@ -17,6 +17,7 @@
   border: 20px solid transparent;
   position: absolute;
   bottom: -44px;
+  left: 20px;
   width: 0;
   height: 0;
   border-top: 20px solid #222;
@@ -29,6 +30,7 @@
   width: 0;
   height: 0;
   bottom: -38px;
+  left: 20px;
   border-top: 20px solid #fff;
 }
 /* 回答はここに書いてね */
