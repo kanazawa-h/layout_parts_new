@@ -2,4 +2,88 @@
 
 /* 回答はここに書いてね */
 
+.clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.q7-wid_fon {
+ width: 225px;
+ font-size: 16px;
+ }
+
+/*Q-1*/
+.float_box {
+  float: left;
+  margin-left: 50px;
+  box-sizing: border-box;
+}
+
+.float_box:first-child {
+  margin-left: 0px;
+}
+
+/*Q-2*/
+.table_box {
+  display: table;
+  margin: 0 auto;
+}
+
+.table-c_box {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 50px;
+}
+
+.table-c_box:first-child {
+  padding-left: 0px;
+}
+
+/*Q-3*/
+.dis_inblo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 50px;
+  box-sizing: border-box;
+}
+
+.dis_inblo:first-child {
+  margin-left: 0px;
+}
+
+/* Q-3,5 */
+.inblo_font {
+  font-size: 0;
+}
+
+/*Q-4*/
+.flex_box {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.box_size {
+  box-sizing: border-box;
+}
+
+/*Q-5*/
+.inblo-mag_box_a {
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+  font-size: 16px;
+}
+
+.inblo-mag_box_b{
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 350px;
+  margin-left: -300px;
+  font-size: 16px;
+}
+
+
 /* 回答はここに書いてね */
